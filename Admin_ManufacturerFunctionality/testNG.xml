@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name = "suite12Oct" >
+<listeners>
+<listener class-name="extentreports.testlistener" />
+</listeners>
+      
+ 
+   <test thread-count="5" name = "TodaysTest">
+   
+      <classes>
+         <class name = "pages.manufactureradminlogin" />
+          <class name = "testcases.admin_addmanufacturers" />
+         
+         
+      </classes>
+   </test>
+   
+</suite>
